@@ -1,0 +1,162 @@
+.New {
+  max-width: 85%;
+  align-self: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background: #6dac4fff;
+  border: 1 solid black;
+  grid-gap: 20px;
+}
+
+.MainNews {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  font-size: 15px;
+  padding: 30px;
+  grid-gap: 25px;
+  background-color: rgb(159, 198, 214);
+  line-height: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Lower {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid navy;
+  border-radius: 15px;
+  background-color: olivedrab;
+  padding: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 30vh;
+}
+
+.A {
+  width: 500px;
+  background-image: url("../Image/news.jpg");
+  background-size: 350px;
+  background-repeat: no-repeat;
+}
+
+.B {
+  width: 500px;
+  background-image: url("../Image/Sponsors.jpg");
+  background-size: 300px;
+  background-repeat: no-repeat;
+}
+
+.Top {
+  height: auto;
+  background-color: olivedrab;
+  border-bottom: 2px solid navy;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.Top > p {
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 35px;
+  padding-left: 25px;
+  margin-top: 15px;
+}
+
+/* media query: ====================+++++++++++=============== */
+
+@media screen and (max-width: 768px) {
+  .MainNews {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    font-size: 15px;
+    padding: 5px;
+    grid-gap: 25px;
+    background-color: rgb(159, 198, 214);
+    line-height: 25px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Top > p {
+    font-family: "Abril Fatface", cursive;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .A {
+    width: 10px;
+    background-image: none;
+    background-size: 0px;
+    background-repeat: no-repeat;
+  }
+}
+
+/* media query: 500screen ====================+++++++++++=============== */
+
+@media screen and (max-width: 500px) {
+  .MainNews {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    font-size: 15px;
+    padding: 5px;
+    grid-gap: 25px;
+    background-color: rgb(159, 198, 214);
+    line-height: 25px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Top > p {
+    font-family: "Abril Fatface", cursive;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Top {
+    height: auto;
+    background-color: olivedrab;
+    border-bottom: 2px solid navy;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .B {
+    width: 500px;
+    background-image: url("../Image/Sponsors.jpg");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+  }
+}

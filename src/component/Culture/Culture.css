@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.culture_contain {
+  max-width: 85% !important;
+  margin: auto;
+  height: auto;
+  background-color: rgb(241, 253, 243);
+  display: flex;
+}
+
+.culture_contain > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.culture_1 {
+  margin-top: 15px;
+  background-color: rgb(218, 245, 218);
+  height: 400px;
+  background-image: url("../Image/image1.jpg");
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+
+.culture_text {
+  padding-left: 400px;
+  padding-top: 150px;
+  color: white;
+  font-size: 60px;
+  font-family: "Pacifico", cursive;
+  text-shadow: 5px 5px 15px black;
+}
+
+.culture_title {
+  background-color: paleturquoise;
+  box-shadow: 5px 8px 5px gray;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Balsamiq Sans", cursive;
+  color: green;
+  font-size: 30px;
+  padding: 10px;
+  width: 650px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border: 0px solid;
+  border-radius: 10px;
+}
+
+.culture_article {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.article_side1 {
+  background-color: paleturquoise;
+  flex-basis: 45%;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  padding: 25px;
+  text-align: justify;
+  line-height: 35px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.article_side1 > p {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.article_side2 {
+  background-color: white;
+  flex-basis: 45%;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  padding-left: 20px;
+  box-shadow: 10px 11px 15px black;
+}
+
+.more_event {
+  color: white;
+  background-color: green;
+  font-size: 18px;
+  border: none;
+  font-weight: bold;
+  height: 36px;
+  padding-top: 0px;
+}
+
+.more_event:focus {
+  outline: none;
+}
+
+.more_event:hover {
+  transform: scale(0.9);
+}
+
+/* media querry ======= */
+
+@media screen and (max-width: 768px) {
+  .culture_1 {
+    margin-top: 15px;
+    background-color: rgb(218, 245, 218);
+    height: auto;
+    width: 400px;
+    background-image: url("../Image/image1.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .culture_text {
+    padding-left: 10px;
+    padding-top: 200px;
+    color: white;
+    font-size: 40px;
+    font-family: "Pacifico", cursive;
+    text-shadow: 5px 5px 15px black;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .culture_title {
+    background-color: paleturquoise;
+    box-shadow: 5px 8px 5px gray;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Balsamiq Sans", cursive;
+    color: green;
+    font-size: 30px;
+    padding: 10px;
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    border: 0px solid;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .culture_article {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .article_side1 {
+    background-color: paleturquoise;
+    flex-basis: 90%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 25px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .article_side2 {
+    background-color: white;
+    flex-basis: 90%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    box-shadow: 10px 11px 15px black;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .eventimg1 {
+    width: 350px;
+  }
+}
+
+/* media querry  500 screen ================ */
+
+@media screen and (max-width: 500px) {
+  .culture_1 {
+    margin-top: 5px;
+    background-color: rgb(218, 245, 218);
+    height: auto;
+    width: 290px;
+    background-image: url("../Image/image1.jpg");
+    background-repeat: no-repeat;
+    background-size: 310px;
+    margin-left: -10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .culture_text {
+    padding-left: 50px;
+    padding-top: 100px;
+    color: white;
+    font-size: 40px;
+    font-family: "Pacifico", cursive;
+    text-shadow: 5px 5px 15px black;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .culture_title {
+    background-color: paleturquoise;
+    box-shadow: 5px 8px 5px gray;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Balsamiq Sans", cursive;
+    color: green;
+    font-size: 22px;
+    padding: 10px;
+    width: 290px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    border: 0px solid;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .article_side1 {
+    background-color: paleturquoise;
+    flex-basis: 95%;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .article_side2 {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    margin-left: -20px;
+    box-shadow: 7px 7px 8px black;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .eventimg1 {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .article_side1 > p {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: left;
+  }
+}

@@ -1,0 +1,264 @@
+.rows {
+  max-width: 85% !important;
+  background-color: green;
+  height: auto;
+  margin: auto !important;
+}
+
+.contain {
+  background-color: green;
+  height: auto;
+}
+
+.navvv {
+  margin-top: 30px;
+}
+
+.navv {
+  display: inline-flex;
+  margin: 0px 12px;
+  color: #ffff;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.logo {
+  color: white;
+  font-family: "Monoton", cursive;
+  font-size: 3em;
+  background-color: none;
+}
+
+.anime {
+  border: 0px solid white;
+  border-radius: 5px;
+  width: 18px;
+  height: 15px;
+  background-color: white;
+  position: relative;
+  animation-name: logoo;
+  animation-duration: 10s;
+  animation-iteration-count: 50;
+  animation-delay: 2s;
+}
+
+@keyframes logoo {
+  0% {
+    background-color: white;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: green;
+    left: 480px;
+    bottom: 0px;
+  }
+  50% {
+    background-color: green;
+    left: 1px;
+    top: -40px;
+  }
+  75% {
+    background-color: navy;
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    background-color: white;
+    left: 0px;
+    top: -15px;
+  }
+}
+
+.active {
+  border-bottom: 2px solid white;
+}
+
+.activee {
+  border-bottom: 3px solid red;
+}
+
+.a:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffff;
+}
+
+.b:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffff;
+}
+.c:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffff;
+}
+.d:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffff;
+}
+
+/* ====================================================== */
+/* Media querry  */
+
+@media screen and (max-width: 768px) {
+  .navv {
+    display: block;
+    margin: 10px -40px;
+    color: green;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    background-color: whitesmoke;
+    width: 85px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navv:hover {
+    color: navy;
+    transform: scale(0.92);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    color: white;
+    font-family: "Monoton", cursive;
+    font-size: 3em;
+    background-color: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .anime {
+    border: 0px solid white;
+    border-radius: 5px;
+    width: 18px;
+    height: 15px;
+    background-color: white;
+    position: relative;
+    animation-name: logoo;
+    animation-duration: 10s;
+    animation-iteration-count: 50;
+    animation-delay: 2s;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  @keyframes logoo {
+    0% {
+      background-color: white;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      background-color: green;
+      left: 402px;
+      bottom: 0px;
+    }
+    50% {
+      background-color: green;
+      left: 1px;
+      top: -40px;
+    }
+    75% {
+      background-color: navy;
+      left: 0px;
+      top: 0px;
+    }
+    100% {
+      background-color: white;
+      left: 0px;
+      top: -15px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    color: white;
+    font-family: "Monoton", cursive;
+    font-size: 2.8em;
+    background-color: none;
+  }
+}
+
+/* ======================media qurry screen of 500 ====== */
+
+@media screen and (max-width: 500px) {
+  .navv {
+    display: block;
+    margin: 8px -40px;
+    color: green;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    background-color: whitesmoke;
+    width: 70px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navv:hover {
+    color: navy;
+    transform: scale(0.95);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    color: white;
+    font-family: "Monoton", cursive;
+    font-size: 1.9em;
+    background-color: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .anime {
+    border: 0px solid white;
+    border-radius: 5px;
+    width: 18px;
+    height: 15px;
+    background-color: white;
+    position: relative;
+    animation-name: logoo;
+    animation-duration: 10s;
+    animation-iteration-count: 50;
+    animation-delay: 2s;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  @keyframes logoo {
+    0% {
+      background-color: white;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      background-color: green;
+      left: 250px;
+      bottom: 0px;
+    }
+    50% {
+      background-color: green;
+      left: 1px;
+      top: -40px;
+    }
+    75% {
+      background-color: navy;
+      left: 0px;
+      top: 0px;
+    }
+    100% {
+      background-color: white;
+      left: 0px;
+      top: -15px;
+    }
+  }
+}

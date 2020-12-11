@@ -1,0 +1,100 @@
+.inp {
+  width: 400px;
+  height: 35px;
+  border: 0px solid purple;
+}
+
+.tex {
+  width: 400px;
+  height: 100px;
+  border: 1px solid purple;
+  background-color: rgb(216, 250, 240);
+  color: purple;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 530;
+}
+
+.texx {
+  width: 400px;
+  border: 1px solid purple;
+}
+
+.push {
+  color: white;
+  font-family: "Arvo", serif;
+  font-weight: 800;
+  border: 1px solid;
+  background-color: purple;
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.push:hover {
+  transform: scale(0.98);
+  color: white;
+  font-family: "Arvo", serif;
+  font-weight: 800;
+  border: 1px solid;
+  background-color: green;
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.inp:hover {
+  width: 400px;
+  height: 30px;
+  background-color: rgb(216, 250, 240);
+  font-weight: 300;
+  font-family: "Arvo", serif;
+}
+
+.inp:focus {
+  outline: none;
+}
+
+.talk {
+  color: purple;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+label {
+  color: purple;
+  font-family: "Arvo", serif;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+/* ===========media querry screen 500 ========= */
+@media screen and (max-width: 500px) {
+  .inp {
+    width: 280px;
+    height: 35px;
+    border: 0px solid purple;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tex {
+    width: 280px;
+    height: 100px;
+    border: 1px solid purple;
+    background-color: rgb(216, 250, 240);
+    color: purple;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 530;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .texx {
+    width: 280px;
+    border: 1px solid purple;
+  }
+}

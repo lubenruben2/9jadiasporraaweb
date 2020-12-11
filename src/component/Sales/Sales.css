@@ -1,0 +1,740 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Neuton:ital@1&display=swap");
+
+.contain_sales {
+  max-width: 85%;
+  height: auto;
+  background-image: url("../Image/Cars-Background-PNG.png");
+  background-size: auto;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.contain_sales > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.sales_title {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.sharp {
+  height: auto;
+  background-color: paleturquoise;
+  box-shadow: 7px 10px 5px #aaaaaa;
+  text-align: center;
+  padding: 20px;
+  font-family: "Balsamiq Sans", cursive;
+  color: green;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+/* ===================================================== pic 1 ============= */
+
+.pop1 {
+  background-image: url("../Image/car1.jpg");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  border: 1 solid red;
+  width: 500px;
+  height: 370px;
+  margin-bottom: 20px;
+}
+
+.pop1:focus {
+  background-image: url("../Image/car1.jpg");
+  background-size: 990px;
+  width: 940px;
+  height: 740px;
+  color: white;
+  margin-left: 5px;
+  z-index: 1;
+}
+
+.pop1:hover {
+  transform: scale(0.99);
+}
+
+/* ===================================================== pic 2 ============= */
+
+.pop2 {
+  background-image: url("../Image/car2.jpg");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  border: 1 solid red;
+  width: 500px;
+  height: 370px;
+  margin-bottom: 20px;
+  margin-left: 350px;
+  margin-top: -70px;
+  z-index: 1;
+}
+
+.pop2:focus {
+  background-image: url("../Image/car2.jpg");
+  background-size: 990px;
+  width: 940px;
+  height: 740px;
+  color: white;
+  margin-left: 5px;
+  z-index: 1;
+}
+
+.pop2:hover {
+  transform: scale(0.99);
+}
+
+/* ===================================================== pic 3 ============= */
+
+.pop3 {
+  background-image: url("../Image/car3.jpg");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  border: 1 solid red;
+  width: 500px;
+  height: 370px;
+  margin-bottom: 20px;
+  margin-left: 650px;
+  margin-top: -70px;
+}
+
+.pop3:focus {
+  background-image: url("../Image/car3.jpg");
+  background-size: 990px;
+  width: 940px;
+  height: 740px;
+  color: white;
+  margin-left: 5px;
+  z-index: 1;
+}
+
+.pop3:hover {
+  transform: scale(0.99);
+}
+
+/* ========= second picture set ========== second pic 1 */
+
+.pop11 {
+  background-image: url("../Image/car11.jpg");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  border: 1 solid red;
+  width: 500px;
+  height: 370px;
+  margin-bottom: 20px;
+  margin-top: -70px;
+  margin-left: 650px;
+}
+
+.pop11:focus {
+  background-image: url("../Image/car11.jpg");
+  background-size: 990px;
+  width: 940px;
+  height: 740px;
+  color: white;
+  margin-left: 5px;
+  z-index: 1;
+}
+
+.pop11:hover {
+  transform: scale(0.99);
+}
+
+/* ================================ second pic 2*/
+.pop22 {
+  background-image: url("../Image/car22.jpg");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  border: 1 solid red;
+  width: 500px;
+  height: 370px;
+  margin-bottom: 20px;
+}
+
+.pop22:focus {
+  background-image: url("../Image/car22.jpg");
+  background-size: 990px;
+  width: 940px;
+  height: 740px;
+  color: white;
+  margin-left: 5px;
+  z-index: 1;
+}
+
+.pop22:hover {
+  transform: scale(0.99);
+}
+
+/* ========================== second pic 3 */
+
+.pop333 {
+  background-image: url("../Image/car333.jpg");
+  background-size: 530px;
+  border: 1 solid red;
+  width: 500px;
+  height: 370px;
+  margin-bottom: 20px;
+  margin-left: 350px;
+  margin-top: -70px;
+  z-index: 1;
+}
+
+.pop333:focus {
+  background-image: url("../Image/car333.jpg");
+  background-size: 990px;
+  width: 940px;
+  height: 740px;
+  color: white;
+  margin-left: 5px;
+  z-index: 1;
+}
+
+.pop333:hover {
+  transform: scale(0.99);
+}
+/* ======================================================== */
+.pop1:focus {
+  outline: none;
+}
+.pop2:focus {
+  outline: none;
+}
+.pop3:focus {
+  outline: none;
+}
+
+/* ========================================================= */
+
+.pop11:focus {
+  outline: none;
+}
+.pop22:focus {
+  outline: none;
+}
+.pop333:focus {
+  outline: none;
+}
+
+/* ============================================================ */
+.img_con {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.car_info {
+  width: 500px;
+  background-color: paleturquoise;
+  height: auto;
+  box-shadow: 7px 10px 5px #aaaaaa;
+  text-align: center;
+  margin-left: 100px;
+  font-family: "Handlee", cursive;
+  font-family: "Neuton", serif;
+  margin-bottom: 150px;
+  margin-top: -380px;
+}
+
+.h3 {
+  font-size: 23px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  line-height: 30px;
+  border-right: 2px solid green;
+}
+
+.h4 {
+  font-size: 25px;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-top: 60px;
+  line-height: 30px;
+}
+
+.h4 a {
+  font-weight: bold;
+  color: red;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.car_info2 {
+  width: 500px;
+  background-color: paleturquoise;
+  height: auto;
+  box-shadow: 7px 10px 5px #aaaaaa;
+  text-align: center;
+  margin-left: 100px;
+  font-family: "Handlee", cursive;
+  font-family: "Neuton", serif;
+  margin-bottom: 150px;
+  margin-top: -400px;
+}
+
+.divider {
+  width: 200px;
+  background-color: black;
+}
+
+.divider2 {
+  width: 200px;
+  background-color: red;
+}
+
+/* media querry start here  ==================> */ /* media querry start here  ==================> */
+
+@media screen and (max-width: 768px) {
+  .sharp {
+    height: auto;
+    background-color: paleturquoise;
+    box-shadow: 7px 10px 5px #aaaaaa;
+    text-align: center;
+    padding: 20px;
+    font-family: "Balsamiq Sans", cursive;
+    color: green;
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop1 {
+    background-image: url("../Image/car1.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    border: 1 solid red;
+    width: 500px;
+    height: 370px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop1:focus {
+    background-image: url("../Image/car1.jpg");
+    background-size: 650px;
+    width: 800px;
+    height: 450px;
+    color: white;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop2 {
+    background-image: url("../Image/car2.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    border: 1 solid red;
+    width: 500px;
+    height: 370px;
+    margin-bottom: 20px;
+    margin-left: -0px;
+    margin-top: -0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop2:focus {
+    background-image: url("../Image/car2.jpg");
+    background-size: 650px;
+    width: 800px;
+    height: 450px;
+    color: white;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop3 {
+    background-image: url("../Image/car3.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    border: 1 solid red;
+    width: 500px;
+    height: 370px;
+    margin-bottom: 20px;
+    margin-left: -0px;
+    margin-top: -0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop3:focus {
+    background-image: url("../Image/car3.jpg");
+    background-size: 650px;
+    width: 800px;
+    height: 450px;
+    color: white;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop11 {
+    background-image: url("../Image/car11.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    border: 1 solid red;
+    width: 500px;
+    height: 370px;
+    margin-bottom: 20px;
+    margin-left: -0px;
+    margin-top: -0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop11:focus {
+    background-image: url("../Image/car11.jpg");
+    background-size: 650px;
+    width: 800px;
+    height: 450px;
+    color: white;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop22 {
+    background-image: url("../Image/car22.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    border: 1 solid red;
+    width: 500px;
+    height: 370px;
+    margin-bottom: 20px;
+    margin-left: -0px;
+    margin-top: -0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop22:focus {
+    background-image: url("../Image/car22.jpg");
+    background-size: 650px;
+    width: 800px;
+    height: 450px;
+    color: white;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop333 {
+    background-image: url("../Image/car333.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    border: 1 solid red;
+    width: 500px;
+    height: 370px;
+    margin-bottom: 20px;
+    margin-left: -0px;
+    margin-top: -0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pop333:focus {
+    background-image: url("../Image/car333.jpg");
+    background-size: 650px;
+    width: 800px;
+    height: 450px;
+    color: white;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .car_info {
+    width: 500px;
+    background-color: paleturquoise;
+    height: auto;
+    box-shadow: 7px 10px 5px #aaaaaa;
+    text-align: center;
+    margin-left: -0px;
+    font-family: "Handlee", cursive;
+    font-family: "Neuton", serif;
+    margin-bottom: 150px;
+    margin-top: -0px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .h3 {
+    font-size: 23px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    line-height: 30px;
+    border-right: 2px solid green;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .h4 {
+    font-size: 25px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-top: 60px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .h4 a {
+    font-weight: bold;
+    color: red;
+    font-size: 25px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .car_info2 {
+    width: 500px;
+    background-color: paleturquoise;
+    height: auto;
+    box-shadow: 7px 10px 5px #aaaaaa;
+    text-align: center;
+    margin-left: -0px;
+    font-family: "Handlee", cursive;
+    font-family: "Neuton", serif;
+    margin-bottom: 150px;
+    border-radius: 20px;
+  }
+}
+
+/* ============= media querry 500 screen ======== */ /* ============= media querry 500 screen ======== */
+
+@media screen and (max-width: 500) {
+  .contain_sales {
+    max-width: 100%;
+    height: auto;
+    background-image: url("../Image/Cars-Background-PNG.png");
+    background-size: auto;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sharp {
+    height: auto;
+    background-color: paleturquoise;
+    box-shadow: 7px 10px 5px #aaaaaa;
+    text-align: center;
+    padding: 20px;
+    font-family: "Balsamiq Sans", cursive;
+    color: green;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pop1 {
+    background-image: url("../Image/car1.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 220px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pop1:focus {
+    background-image: url("../Image/car1.jpg");
+    background-size: 350px;
+    width: 400px;
+    height: 250px;
+    color: white;
+    margin-left: -0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pop2 {
+    background-image: url("../Image/car2.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 220px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pop2:focus {
+    background-image: url("../Image/car2.jpg");
+    background-size: 350px;
+    width: 400px;
+    height: 250px;
+    color: white;
+    margin-left: -0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pop3 {
+    background-image: url("../Image/car3.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 220px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pop3:focus {
+    background-image: url("../Image/car3.jpg");
+    background-size: 350px;
+    width: 400px;
+    height: 250px;
+    color: white;
+    margin-left: -0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pop11 {
+    background-image: url("../Image/car11.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 220px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pop11:focus {
+    background-image: url("../Image/car11.jpg");
+    background-size: 350px;
+    width: 400px;
+    height: 250px;
+    color: white;
+    margin-left: -0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pop22 {
+    background-image: url("../Image/car22.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 220px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pop22:focus {
+    background-image: url("../Image/car22.jpg");
+    background-size: 350px;
+    width: 400px;
+    height: 250px;
+    color: white;
+    margin-left: -0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pop333 {
+    background-image: url("../Image/car333.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 220px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pop333:focus {
+    background-image: url("../Image/car333.jpg");
+    background-size: 350px;
+    width: 400px;
+    height: 250px;
+    color: white;
+    margin-left: -0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .car_info {
+    width: auto;
+    background-color: paleturquoise;
+    height: auto;
+    box-shadow: 7px 10px 5px #aaaaaa;
+    text-align: center;
+    margin-left: -0px;
+    font-family: "Handlee", cursive;
+    font-family: "Neuton", serif;
+    margin-bottom: 150px;
+    margin-top: -0px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .h3 {
+    font-size: 19px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    line-height: 30px;
+    border-right: 2px solid green;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .h4 {
+    font-size: 19px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-top: 60px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .h4 a {
+    font-weight: bold;
+    color: red;
+    font-size: 25px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .car_info2 {
+    width: auto;
+    background-color: paleturquoise;
+    height: auto;
+    box-shadow: 7px 10px 5px #aaaaaa;
+    text-align: center;
+    margin-left: -0px;
+    font-family: "Handlee", cursive;
+    font-family: "Neuton", serif;
+    margin-bottom: 150px;
+    border-radius: 20px;
+  }
+}

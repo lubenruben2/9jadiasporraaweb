@@ -1,0 +1,31 @@
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Monoton", cursive;
+  font-size: 1.5em;
+  background-color: green;
+  margin-right: 0 !important;
+}
+
+.foot-p {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin: 5px;
+  font-size: 17px;
+  word-spacing: 5px;
+  margin-right: 0 !important;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.containn {
+  margin: 0 !important;
+  padding: 0;
+  background-color: green;
+  text-align: center;
+  height: auto;
+  padding-top: 40px;
+  width: 100%vh;
+}

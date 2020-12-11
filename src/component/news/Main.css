@@ -1,0 +1,72 @@
+.main {
+  max-width: 85%;
+  display: grid;
+  grid-gap: none;
+  grid-gap: 10px;
+  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 100px (auto);
+  height: 60vh;
+  background-image: url("../Image/Banner.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.time {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  font-weight: bold;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url("../Image/Banner.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.Banner {
+  background-image: url("../Image/Banner.jpg");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* media querry:========================================== */
+
+@media screen and (max-width: 768px) {
+  .main {
+    max-width: auto;
+    display: grid;
+    grid-gap: none;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 100px (auto);
+    height: 70vh;
+    background-image: url("../Image/Banner.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .time {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 10px;
+    font-weight: bold;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url("../Image/Banner.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Banner {
+    background-image: url("../Image/Banner.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+  }
+}
