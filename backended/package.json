@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "client": "npm start"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +18,5 @@
     "mongoose": "^5.10.9",
     "nodemon": "^2.0.4"
   },
-  "engine": {
-    "node": "12.19.0"
-  }
+  "devDependencies": {}
 }
