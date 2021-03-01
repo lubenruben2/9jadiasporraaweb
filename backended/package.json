@@ -17,5 +17,7 @@
     "mongoose": "^5.10.9",
     "nodemon": "^2.0.4"
   },
-  "devDependencies": {}
+  "engine": {
+    "node": "12.19.0"
+  }
 }

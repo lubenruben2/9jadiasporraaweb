@@ -13,14 +13,13 @@ class New extends Component {
   }
 
   componentDidMount = () => {
-    axios
-      .get(
-        `http://newsapi.org/v2/top-headlines?country=us&pageSize=9&apiKey=46e14988b345447487b13565cf885182`
-      )
-      .then((res) => {
-        console.log(res.data.articles);
-        this.setState({ news: res.data.articles });
-      });
+    const API_KEY = `http://newsapi.org/v2/top-headlines?country=us&pageSize=9&apiKey=46e14988b345447487b13565cf885182`;
+    const API_KEY_VALUE = API_KEY;
+
+    axios.get(API_KEY_VALUE).then((res) => {
+      console.log(res.data.articles);
+      this.setState({ news: res.data.articles });
+    });
   };
 
   render() {
