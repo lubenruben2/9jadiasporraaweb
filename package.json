@@ -41,9 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "proxies": {
-    "/api/": {
-      "origin": "https://${API_APP_VALUE}.herokuapp.com/"
-    }
-  }
+  "proxy": "https://${API_APP_VALUE}.herokuapp.com/"
 }
